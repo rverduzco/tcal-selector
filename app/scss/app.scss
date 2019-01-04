@@ -1,0 +1,13 @@
+// Modules and Variables
+@import "modules/bootstrap-min";
+// The modules directory is reserved for Sass code that doesn't cause Sass to actually output CSS. Things like mixin declarations, functions, and variables.
+@import "modules/variables";
+
+// Partials
+// The partials directory is where the meat of my CSS is constructed. A lot of folks like to break their stylesheets into header, content, sidebar, and footer components (and a few others). 
+@import "partials/base";
+@import "partials/buttons";
+@import "partials/footer";
+@import "partials/header";
+@import "partials/forms";
+@import "partials/components";

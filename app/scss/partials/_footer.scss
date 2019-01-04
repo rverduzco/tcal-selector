@@ -1,0 +1,47 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 300px;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 10px;
+
+    @media (max-width: 690px) {
+        display: block;
+        padding: 5px 0px;
+    }
+
+    a {
+        color: #ffc20e;
+
+        &:hover {
+            color: #ffffff;
+        }
+    }
+}
+
+footer p {
+    padding-right: 30px;
+    float: left;
+    
+    @media (max-width: 690px) {
+        float: none;
+    }
+}
+
+@media (max-width: 690px) {
+
+    footer ul {
+            padding-left: 0px;
+        }
+}

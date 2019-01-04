@@ -1,0 +1,33 @@
+
+.btn:hover {
+    transition: 0.35s;
+}
+
+.btn {
+    transition: 0.35s;
+}
+
+.btn-primary {
+    color: $black;
+    background-color: $fluke-yellow;
+    border: 1px solid $fluke-yellow;
+    border-radius: 0px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.btn-primary.disabled {
+    opacity: 100;
+}
+
+.btn-primary.disabled:hover {
+    background-color: $white;
+    border: 1px solid $fluke-yellow;
+    color: $black;
+}
+
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+    cursor: pointer;
+}

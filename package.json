@@ -1,0 +1,32 @@
+{
+  "name": "tcal-self-selector",
+  "version": "1.0.0",
+  "description": "Landing page",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "landing",
+    "page"
+  ],
+  "author": "Randy Verduzco",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-inject": "^4.3.2",
+    "gulp-remove-code": "^1.0.2",
+    "gulp-sass": "^3.2.1",
+    "gulp-string-replace": "^1.0.0",
+    "gulp-style-inject": "^0.1.1",
+    "gulp-uncss": "^1.0.6"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-htmlmin": "^4.0.0",
+    "imagemin-jpeg-recompress": "^5.1.0"
+  }
+}
