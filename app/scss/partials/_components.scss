@@ -2,7 +2,12 @@
     max-width: 1260px;
 }
 
-.panel-black {
-    background-color: $black-light;
+.panel-grey {
+    background-color: #e6e6e6;
+    color: $black;
+}
+
+.panel-dark-grey {
+    background-color: #707070;
     color: $white;
 }
