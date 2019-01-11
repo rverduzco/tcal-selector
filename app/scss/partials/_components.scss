@@ -35,6 +35,8 @@
     border: 5px solid #376899;
     padding: 15px 10px 20px;
     margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
     > a {
         font-weight: bold;
     }
