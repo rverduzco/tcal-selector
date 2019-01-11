@@ -17,12 +17,13 @@ h1, h2, h3 {
 
 h1, 
 h2 {
-    font-size: 34px;
-    margin-bottom: 36px;
+    font-size: calc(30px + .25vw);
+    margin-bottom: 16px;
 }
 
 h3 {
     color: #376899;
+    font-size: calc(20px + .25vw);
 }
 
 ul {
