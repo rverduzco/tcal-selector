@@ -10,12 +10,19 @@ body {
     font-size: 18px;
 }
 
+h1, h2, h3 {
+    font-family: $secondary-font;
+    font-weight: bold;
+}
+
 h1, 
 h2 {
     font-size: 34px;
-    font-weight: bold;
-    font-family: $secondary-font;
     margin-bottom: 36px;
+}
+
+h3 {
+    color: #376899;
 }
 
 ul {

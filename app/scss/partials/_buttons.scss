@@ -12,8 +12,15 @@
     background-color: $fluke-yellow;
     border: 1px solid $fluke-yellow;
     border-radius: 0px;
-    font-size: 1.4rem;
+    font-size: calc(16px + .5vw);
     font-weight: 700;
+    padding-left: 60px;
+    padding-right: 60px;
+    &:hover{
+        color: $black;
+        background-color: #ffffff;
+        border:  1px solid $fluke-yellow;
+    }
 }
 
 .btn-primary.disabled {
@@ -62,6 +69,16 @@ fieldset[disabled] .btn {
     }
 }
 
+.nav-btn-blue{
+    color: #376899;
+    font-size: calc(16px + .50vw);
+    margin-top: 40px;
+    display: inline-block;
+    &:hover {
+        color: #344657;
+    }
+}
+
 i {
     border: solid #ffffff;
     border-width: 0 4px 4px 0;
@@ -82,3 +99,7 @@ i {
     margin-right: 6px
   }
 
+i.right__blue, i.left__blue{
+    border: solid #376899;
+    border-width: 0 4px 4px 0;
+}
