@@ -74,7 +74,7 @@
                     <a href="http://us.flukecal.com/" target="_blank"><img src="https://us.flukecal.com/sites/flukecal.com/files/assets/Splash_pages/image/laam-baths-promo/6010937-fcal-logo.png" alt="Fluke Calibration"></a>
                 </div>
 
-                <div class="col-sm-5 col-md-5 col-lg-6 d-none d-sm-block">
+                <div class="col-sm-5 col-md-5 col-lg-6 d-sm-block">
                     <p id="tag-line">Precision, Performance, Confidence.
                         <sup>&trade;</sup>
                     </p>
@@ -104,16 +104,16 @@
 
         <div class="row">
             <div class="col-sm-12 col--hor-pad-reset">
-                <a href="" class="btn-white"><i class="right"></i>I need to calibrate very high temperatures (up to 700° C)</a>
-                <a href="" class="btn-white"><i class="right"></i>I need to calibrate high temperatures (33° to 425° C)</a>
-                <a href="" class="btn-white"><i class="right"></i>I need to calibrate low temperatures (-95° to 155°)</a>
+                <a href="#" class="btn-white" onclick="panel_toggle('#start', '#1a')"><i class="right"></i>I need to calibrate very high temperatures (up to 700° C)</a>
+                <a href="#" class="btn-white" onclick="panel_toggle('#start', '#1b')"><i class="right"></i>I need to calibrate high temperatures (33° to 425° C)</a>
+                <a href="#" class="btn-white" onclick="panel_toggle('#start', '#1c')"><i class="right"></i>I need to calibrate low temperatures (-95° to 155°)</a>
             </div>
         </div>
     </div>
     <!-- Starter Section : END -->
 
     <!-- Page 1A Section : BEGIN -->
-    <div id="1a" class="container frame d-none">
+    <div id="1a" class="container frame" style="display: none">
         <div class="row">
             <div class="col-sm-12 col-lg-9">
                 <h2>Fluke Calibration Dry Block Selector</h2>
@@ -161,15 +161,15 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <a href="" class="nav-btn-blue"><i class="left left__blue"></i>Go back</a>
-                <a href="" class="nav-btn-blue float-right">Start over <i class="right right__blue"></i></a>
+                <a href="#" class="nav-btn-blue" onclick="panel_toggle('#1a', '#start')"><i class="left left__blue"></i>Go back</a>
+                <a href="#" class="nav-btn-blue float-right" onclick="panel_toggle('#1a', '#start')">Start over <i class="right right__blue"></i></a>
             </div>
         </div>
     </div>
     <!-- Page 1A Section : END -->
 
     <!-- Page 1B Section : BEGIN -->
-    <div id="1b" class="container frame frame--question d-none">
+    <div id="1b" class="container frame frame--question" style="display:none">
         <div class="row">
             <div class="col-sm-12 col-lg-9">
                 
@@ -182,21 +182,21 @@
 
         <div class="row">
             <div class="col-sm-12 col--hor-pad-reset">
-                <a href="" class="btn-white"><i class="right"></i>I need accuracy within 0.6° C</a>
-                <a href="" class="btn-white"><i class="right"></i>I need the best accuracy available (within 0.2° C or better)</a>
+                <a href="#" class="btn-white" onclick="panel_toggle('#1b', '#2a')"><i class="right" ></i>I need accuracy within 0.6° C</a>
+                <a href="#" class="btn-white" onclick="panel_toggle('#1b', '#2b')"><i class="right"></i>I need the best accuracy available (within 0.2° C or better)</a>
             </div>
         </div>
 
         <div class="row">
             <div class="col-sm-12">
-                <a href="" class="nav-btn-white"><i class="left"></i>Go back</a>
+                <a href="#" class="nav-btn-white" onclick="panel_toggle('#1b', '#start')"><i class="left"></i>Go back</a>
             </div>
         </div>
     </div>
     <!-- Page 1B Section : END -->
 
     <!-- Page 1C Section : BEGIN -->
-    <div id="1c" class="container frame frame--question d-none">
+    <div id="1c" class="container frame frame--question" style="display:none">
         <div class="row">
             <div class="col-sm-12 col-lg-9">
                 
@@ -209,21 +209,21 @@
 
         <div class="row">
             <div class="col-sm-12 col--hor-pad-reset">
-                <a href="" class="btn-white"><i class="right"></i>I need accuracy within 0.25° C</a>
-                <a href="" class="btn-white"><i class="right"></i>I need the best accuracy available (within 0.2° C or better)</a>
+                <a href="#" class="btn-white" onclick="panel_toggle('#1c', '#2c')"><i class="right"></i>I need accuracy within 0.25° C</a>
+                <a href="#" class="btn-white" onclick="panel_toggle('#1c', '#2d')"><i class="right"></i>I need the best accuracy available (within 0.2° C or better)</a>
             </div>
         </div>
 
         <div class="row">
             <div class="col-sm-12">
-                <a href="" class="nav-btn-white"><i class="left"></i>Go back</a>
+                <a href="#" class="nav-btn-white" onclick="panel_toggle('#1c', '#start')"><i class="left"></i>Go back</a>
             </div>
         </div>
     </div>
     <!-- Page 1C Section : END -->
 
     <!-- Page 2A Section : BEGIN -->
-    <div id="2a" class="container frame">
+    <div id="2a" class="container frame" style="display:none">
         <div class="row">
             <div class="col-sm-12 col-lg-9">
                 <h2>Fluke Calibration Dry Block Selector</h2>
@@ -281,15 +281,15 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <a href="" class="nav-btn-blue"><i class="left left__blue"></i>Go back</a>
-                <a href="" class="nav-btn-blue float-right">Start over <i class="right right__blue"></i></a>
+                <a href="#" class="nav-btn-blue" onclick="panel_toggle('#2a', '#1b')"><i class="left left__blue"></i>Go back</a>
+                <a href="#" class="nav-btn-blue float-right" onclick="panel_toggle('#2a', '#start')">Start over <i class="right right__blue"></i></a>
             </div>
         </div>
     </div>
     <!-- Page 2A Section : END -->
 
     <!-- Page 2B Section : BEGIN -->
-    <div id="2b" class="container frame d-none">
+    <div id="2b" class="container frame" style="display:none">
         <div class="row">
             <div class="col-sm-12 col-lg-9">
                 <h2>Fluke Calibration Dry Block Selector</h2>
@@ -337,15 +337,15 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <a href="" class="nav-btn-blue"><i class="left left__blue"></i>Go back</a>
-                <a href="" class="nav-btn-blue float-right">Start over <i class="right right__blue"></i></a>
+                <a href="#" class="nav-btn-blue" onclick="panel_toggle('#2b', '#1b')"><i class="left left__blue"></i>Go back</a>
+                <a href="#" class="nav-btn-blue float-right" onclick="panel_toggle('#2b', '#start')">Start over <i class="right right__blue"></i></a>
             </div>
         </div>
     </div>
     <!-- Page 2B Section : END -->
 
     <!-- Page 2C Section : BEGIN -->
-    <div id="2c" class="container frame d-none">
+    <div id="2c" class="container frame" style="display:none">
         <div class="row">
             <div class="col-sm-12 col-lg-9">
                 <h2>Fluke Calibration Dry Block Selector</h2>
@@ -389,15 +389,15 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <a href="" class="nav-btn-blue"><i class="left left__blue"></i>Go back</a>
-                <a href="" class="nav-btn-blue float-right">Start over <i class="right right__blue"></i></a>
+                <a href="#1c" class="nav-btn-blue" onclick="panel_toggle('#2c', '#1c')"><i class="left left__blue"></i>Go back</a>
+                <a href="#start" class="nav-btn-blue float-right" onclick="panel_toggle('#2c', '#start')">Start over <i class="right right__blue"></i></a>
             </div>
         </div>
     </div>
     <!-- Page 2C Section : END -->
 
     <!-- Page 2D Section : BEGIN -->
-    <div id="2d" class="container frame d-none">
+    <div id="2d" class="container frame" style="display:none">
             <div class="row">
                 <div class="col-sm-12 col-lg-9">
                     <h2>Fluke Calibration Dry Block Selector</h2>
@@ -474,8 +474,8 @@
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <a href="" class="nav-btn-blue"><i class="left left__blue"></i>Go back</a>
-                    <a href="" class="nav-btn-blue float-right">Start over <i class="right right__blue"></i></a>
+                    <a href="#1c" class="nav-btn-blue" onclick="panel_toggle('#2d', '#1c')"><i class="left left__blue"></i>Go back</a>
+                    <a href="#start" class="nav-btn-blue float-right" onclick="panel_toggle('#2d', '#start')">Start over <i class="right right__blue"></i></a>
                 </div>
             </div>
         </div>
@@ -938,7 +938,17 @@
     <!-- Load Fonts through JS to prevent render bocking css : end -->
 
 
+    <script>
+         // Hiding and showing panels
+         function panel_toggle(cur, target) {
+            event.preventDefault();
 
+            $(cur).hide();
+            $(target).show();
+
+           
+        }
+    </script>
 
 
 
