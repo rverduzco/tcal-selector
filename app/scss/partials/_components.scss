@@ -37,6 +37,7 @@
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
+    width: 100%;
     > a {
         font-weight: bold;
     }
@@ -44,4 +45,8 @@
         margin-top: 15px;
         margin-bottom: 15px;
     }
+}
+
+img {
+   min-height: 1px;
 }
