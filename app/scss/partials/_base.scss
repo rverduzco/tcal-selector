@@ -1,4 +1,3 @@
-
 html {
     position: relative;
     min-height: 100%;
@@ -10,12 +9,14 @@ body {
     font-size: 18px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: $secondary-font;
     font-weight: bold;
 }
 
-h1, 
+h1,
 h2 {
     font-size: calc(30px + .25vw);
     margin-bottom: 16px;
@@ -33,22 +34,11 @@ ul {
 a {
     color: #376899;
     transition: 0.35s;
-
     &:hover {
         text-decoration: none;
         transition: 0.35s;
     }
-
     &:visited {
         text-decoration: none;
     }
 }
-
-
-
-
-
-
-
-
-
